@@ -116,9 +116,9 @@ async function loginFunction(req, res) {
     });
 
     return res.json({ status: 200, message: "Logged In Succesfully" });
+  } else {
+    return res.json({ status: 400, error: "Invalid Username/Password" });
   }
-
-  res.json({ status: 400, error: "Invalid Username/Password" });
 }
 
 async function logoutFunction(req, res) {
