@@ -12,6 +12,6 @@ mongoose
 
   .catch((err) => console.error(err));
 
-app.listen(3000, () => {
-  console.log("Server is up on Port 3000");
+app.listen(814, () => {
+  console.log("Server is up on Port 814");
 });
